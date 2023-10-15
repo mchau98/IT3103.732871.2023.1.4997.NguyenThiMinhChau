@@ -13,6 +13,7 @@ public class Array {
         for (int i=0;i<n;i++) System.out.print(a[i]+", ");
         System.out.println("\n");
     }
+    
     // in ra tổng và trung bình
     public static void SumEndAverage(int a[], int n){
         long sum=0;

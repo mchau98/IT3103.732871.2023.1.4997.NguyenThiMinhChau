@@ -9,6 +9,7 @@ public static void Triangle(int i){
     }
 
 }
+
 public static void main(String[] args) {
     Scanner sc = new Scanner(System.in);
     System.out.print("Nhap vao chieu cao cua tam gia n sao: ");

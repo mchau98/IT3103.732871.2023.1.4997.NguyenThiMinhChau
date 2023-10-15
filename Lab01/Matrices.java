@@ -13,6 +13,7 @@ public class Matrices {
                 sum[i][j] = MatrixA[i][j] + MatrixB[i][j];
             }
         }
+        
         //Hiển thị ma trận tổng
         System.out.println("Ma trận tổng của hai ma trận đã cho là: ");
         for (int i = 0; i < rows; i++) {
