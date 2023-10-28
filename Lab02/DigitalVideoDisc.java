@@ -1,5 +1,3 @@
-package lab2.AimsProject.src;
-
 public class DigitalVideoDisc {
     private String title;
     private String category;
