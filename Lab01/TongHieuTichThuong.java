@@ -5,8 +5,12 @@ public class TongHieuTichThuong {
         String strNum1, strNum2;
         String strNotification = "Ket Qua Can Tim : \n";
         // nhập 2 số 
-        strNum1 = JOptionPane.showInputDialog(null, "Nguyen Thi Minh Chau, Please input the first number: ", "Input the first number", JOptionPane.INFORMATION_MESSAGE);
-        strNum2 = JOptionPane.showInputDialog(null, "Nguyen Thi Minh Chau, Please input the second number: ", "Input the first number", JOptionPane.INFORMATION_MESSAGE);
+        strNum1 = JOptionPane.showInputDialog(null, 
+        "Nguyen Thi Minh Chau, Please input the first number: ", "Input the first number", 
+        JOptionPane.INFORMATION_MESSAGE);
+        strNum2 = JOptionPane.showInputDialog(null, 
+        "Nguyen Thi Minh Chau, Please input the second number: ", "Input the first number", 
+        JOptionPane.INFORMATION_MESSAGE);
         // double num1 = Double.parseDouble (strNum1);
         // double num2 = Double.parseDouble (strNum2);
         double Tong = Double.parseDouble(strNum1) + Double.parseDouble(strNum2) ;
@@ -17,6 +21,7 @@ public class TongHieuTichThuong {
         strNotification += strNum1 + " - " + strNum2 + " = " + Hieu + "\n";
         strNotification += strNum1 + " * " + strNum2 + " = " + Tich + "\n";
         strNotification += strNum1 + " / " + strNum2 + " = " + Math.ceil(Thuong * 1000) / 1000 + "\n";
-        JOptionPane.showMessageDialog(null, strNotification, "Nguyen Thi Minh Chau", JOptionPane.INFORMATION_MESSAGE);
+        JOptionPane.showMessageDialog(null, strNotification, "Nguyen Thi Minh Chau", 
+        JOptionPane.INFORMATION_MESSAGE);
     }
 }

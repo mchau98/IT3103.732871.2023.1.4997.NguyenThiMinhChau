@@ -1,6 +1,5 @@
-
 import java.util.Arrays;
-import java.util.Scanner;
+import java.util.Scanner;   // Nguyễn Thị Minh Châu
 
 public class DaysofMonth {
    static String[] January = {"January", "Jan.", "Jan", "1"};

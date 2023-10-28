@@ -13,9 +13,9 @@ public class Matrices {
                 sum[i][j] = MatrixA[i][j] + MatrixB[i][j];
             }
         }
-        
+        // Nguyen Thi Minh Chau 20214997
         //Hiển thị ma trận tổng
-        System.out.println("Ma trận tổng của hai ma trận đã cho là: ");
+        System.out.println("Ma tran tong cua hai ma tran da cho la: ");
         for (int i = 0; i < rows; i++) {
             for (int j = 0; j < columns; j++) {
                 System.out.print(sum[i][j] + "    ");

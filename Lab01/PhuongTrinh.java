@@ -1,7 +1,7 @@
-//NguyenThiMinhChau_20214997
-import java.util.Scanner; 
+import java.util.Scanner;   // Nguyễn Thị Minh Châu 20214997
 import java.lang.Math;
 public class PhuongTrinh{
+    // giải phương trình bậc nhất
     public static void phuongtrinhbacnhat(double a, double b){
         if(a==0 && b==0) System.out.println("Phuong trinh vo so nghiem\n");
         else if(a==0 && b!=0) System.out.println("Phuong trinh vo nghiem ");
@@ -10,7 +10,7 @@ public class PhuongTrinh{
             System.out.println("Nghiem cua phuong trinh la x = " + Math.ceil(x * 1000) / 1000);
         }
     }
-
+    // giải hệ phương trình
     public static void hephuongtrinh(double a1, double a2, double b1, double b2, double c1, double c2){
         double D = a1*b2-a2*b1;
         double Dx = c1*b2-c2*b1;
@@ -19,6 +19,7 @@ public class PhuongTrinh{
         else if((D==0 && Dx!= 0) || (D==0 && Dy!= 0)) System.out.println("He phuong trinh vo nghiem");
         else System.out.println("x: " + Math.ceil((Dx/D) * 1000)/1000 + " y: " + Math.ceil((Dy/D) * 1000)/1000 + "\n");
     }
+    // giải phương trình bậc 2
     public static void phuongtrinhbac2(double a, double b, double c){
         if(a==0 && b !=0) System.out.println("Phuong trinh co nghiem la: " + Math.ceil((-c/b) * 1000)/1000);
         else if(a==0 && b == 0 && c == 0) 

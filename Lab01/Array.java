@@ -30,7 +30,7 @@ public class Array {
 
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
-        System.out.print("Nhap vao so luong phan tu cua mang: ");
+        System.out.print("Nguyen Thi Minh Chau, Nhap vao so luong phan tu cua mang: ");
         int n = sc.nextInt();
         int[] a=new int[100] ;
         for (int i=0;i<n;i++){
