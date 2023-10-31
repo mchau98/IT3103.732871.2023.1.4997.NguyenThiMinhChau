@@ -1,3 +1,4 @@
+//create DigitalVideoDisc class
 public class DigitalVideoDisc {
     private String title;
     private String category;
