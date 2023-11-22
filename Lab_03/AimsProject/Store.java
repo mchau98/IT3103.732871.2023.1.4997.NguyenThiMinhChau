@@ -1,4 +1,4 @@
-package Aimsproject;
+package AimsProject;
 
 import java.util.ArrayList;
 

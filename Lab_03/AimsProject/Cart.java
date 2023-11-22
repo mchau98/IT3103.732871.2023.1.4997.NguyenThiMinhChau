@@ -1,4 +1,4 @@
-package Aimsproject;
+package AimsProject;
 
 public class Cart {
     // Attribute

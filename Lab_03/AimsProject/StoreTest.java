@@ -1,4 +1,4 @@
-package Aimsproject;
+package AimsProject;
 
 public class StoreTest {
     public static void main(String[] args) {
